@@ -106,7 +106,7 @@ Logic: If the CSV says '10 Monitors' but you only see 2, that is a Discrepancy.
 Output: Return a strict JSON object: { 
   "audit_pass": boolean, 
   "discrepancy_details": string, 
-  "risk_score": "High/Med/Low", 
+  "risk_score": "High" | "Med" | "Low", 
   "financial_impact": string, 
   "auditor_notes": string,
   "findings_data": [
